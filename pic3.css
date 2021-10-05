@@ -1,0 +1,31 @@
+body {
+    background-color: #474747;
+}
+
+.frame {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(124, 124, 124);
+    margin: auto;
+    padding: 25px;
+    border: solid 2px rgb(230, 228, 228);
+}
+
+.row-sup, .row-inf {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.square {
+    width: 50%;
+    background-color: darkorchid;
+    margin: 3px;
+}
+
+.sub-square {
+    background-color: deepskyblue;
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,112 @@
+body {
+    background-color:rgb(37, 37, 37);
+}
+
+.container {
+    width: 900px;
+    height: 450px;
+    border: solid 3px rgb(192, 192, 192);
+    border-radius: 5px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.is-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-esq {
+    width: 29.5%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-esq .card {
+    height: 18%;
+    background-color: blueviolet;
+}
+
+.col-esq .card:nth-child(2) {
+    background-color: cadetblue;
+}
+
+.col-esq .card:last-child {
+    height: 58%;
+    background-color:brown;
+}
+
+
+.col-dir {
+    width: 69%;
+    justify-content: space-between;
+}
+
+.col-dir .col-esq {
+    background-color: chartreuse;
+}
+
+.col-esqq {
+    width: 100%;
+    height: 35%;
+}
+
+.col-dirr {
+    width: 100%;
+    height: 62%;
+}
+
+.row-sup, .row-inf {
+    width: 100%;
+    height: 46%;
+}
+
+.row-sup {
+    justify-content: space-between;
+}
+
+.row-sup .vai {
+    height: 100%;
+    width: 49%;
+    background-color: darkcyan;
+}
+
+.row-inf {
+    justify-content: space-between;
+}
+
+.row-inf .vaii {
+    height: 100%;
+    width: 41%;
+    background-color: darkred;
+}
+
+.row-inf .vaiii {
+    height: 100%;
+    width: 57%;
+    background-color: darkslateblue;
+}
+
+.col-dirr {
+    justify-content: space-between;
+}
+
+.col-vai {
+    width:23%;
+}
+
+.pelamor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quase-la {
+    background-color: fuchsia;
+    height: 48.5%;
+}
